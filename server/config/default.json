@@ -1,0 +1,5 @@
+{
+  "serverPort": 5000,
+  "dbURL": "mongodb+srv://admin:admin@coursework.slbh0.mongodb.net/coursework?retryWrites=true&w=majority",
+  "secretKey": "mern-secret-key"
+}
