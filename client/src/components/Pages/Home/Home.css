@@ -1,0 +1,29 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr 0.6fr 0.7fr;
+    grid-template-areas: "mainVideo mainVideo newsFeed";
+}
+.mainVideo {
+    width: 1000px;
+    height: 500px;
+
+    grid-area: mainVideo;
+}
+.news-feed {
+    grid-area: newsFeed;
+    border: 2px solid black;
+    min-height: 300px;
+    max-height: 500px;
+    overflow: auto;
+}
+.news-feed__title {
+    font-size: 18px;
+    text-align: center;
+}
+.news-card {
+    padding: 10px;
+}
+.dateOnHomeScreen {
+    display: flex;
+    justify-content: flex-end;
+}
